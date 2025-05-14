@@ -1,0 +1,56 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #0f0f1c;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+h1 {
+    font-size: 2.5em;
+    color: #bb86fc;
+}
+p {
+    font-size: 1.2em;
+    color: #03dac5;
+}
+.maskot {
+    font-size: 4em;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #a3d2ff;
+}
+.section {
+    margin-top: 30px;
+}
+.buttons button {
+    background: linear-gradient(45deg, #a371f7, #62b4ff);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(163, 113, 247, 0.6);
+    transition: transform 0.2s ease;
+}
+.buttons button:hover {
+    transform: scale(1.1);
+}
+.music-control {
+    margin-top: 40px;
+}
+
+.overlay {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #00eaff;
+    height: 30px;
+}
